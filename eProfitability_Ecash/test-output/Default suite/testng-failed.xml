@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.mcdebos.ecash.drawercount.TestDrawerCount">
+        <methods>
+          <include name="identificationOfDCDInCashSystem"/>
+          <include name="selectingDateCalenderFunction"/>
+          <include name="pathwayToDCD"/>
+          <include name="identificationOfDefaultBusinessDay"/>
+          <include name="selectingPastBusinessDate"/>
+          <include name="tearDown"/>
+          <include name="selectFutureDate"/>
+          <include name="userConfirmationNotRequired"/>
+          <include name="viewDCDEntries"/>
+          <include name="setUp"/>
+          <include name="identificationOfStoreNumberOnDCDPage"/>
+        </methods>
+      </class> <!-- com.mcdebos.ecash.drawercount.TestDrawerCount -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Drawer Countdown  - US 84</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Drawer Countdown  - US 84</h1>
+<p>
+  Test duration: 2007.048s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.mcdebos.ecash.drawercount.TestDrawerCount</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  VerfyingDCSystemCalculatedFields
+      </td>
+  <td class="duration">
+    69.558s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@167b2af</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Check Whether Forever Difference Field is Available on DCD Detail screen<br> 
+                                Check Whether Skims Field is Available on DCD Detail screen<br> 
+                                Check Whether Expected Drawer Cash Field is Available on DCD Detail screen<br> 
+                                Check Whether  Field Cash Over/Short is Available on DCD Detail screen<br> 
+                                Check Whether  Field Transaction Count Available on DCD Detail screen<br> 
+                                Check Whether Preparer Field is Available on DCD Detail screen<br> 
+                                <br> <a href="file:///D:\BackUp\23Sep\eProfitability_Ecash\eProfitability_Ecash\eProfitability_Ecash\ScreenShots\VerfyingDCSystemCalculatedFields1443097541194.png">View Screenshot</a><br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up<br/>
+Command duration or timeout: 30.17 seconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 131ef046-68df-4a42-85b2-1b99562389ab</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)<br />
+              org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:320)<br />
+              com.mcdebos.ecash.pages.DrawerCountDownPage.isPreparerField(DrawerCountDownPage.java:381)<br />
+              com.mcdebos.ecash.drawercount.TestDrawerCount.VerfyingDCSystemCalculatedFields(TestDrawerCount.java:584)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-1">
+                      &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8953)<br />
+                      &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous4997093430307366494webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8546)<br />
+                      &lt;anonymous class&gt;.WebElement.isElementDisplayed(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous4997093430307366494webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11789)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous4997093430307366494webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)<br />
+                      &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous4997093430307366494webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  changeDCDDetailsFromCountedToInprogress
+      </td>
+  <td class="duration">
+    40.166s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@84a8e1</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                <br> <a href="file:///D:\BackUp\23Sep\eProfitability_Ecash\eProfitability_Ecash\eProfitability_Ecash\ScreenShots\changeDCDDetailsFromCountedToInprogress1443096374473.png">View Screenshot</a><br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with<br/>
+Command duration or timeout: 30.09 seconds<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 55a48daa-6bd6-4245-8b10-9923c7af360f</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)<br />
+              com.mcdebos.ecash.pages.DrawerCountDownPage.moveToCorrectMonth(DrawerCountDownPage.java:232)<br />
+              com.mcdebos.ecash.pages.DrawerCountDownPage.moveToDate(DrawerCountDownPage.java:175)<br />
+              com.mcdebos.ecash.pages.DrawerCountDownPage.selectDate(DrawerCountDownPage.java:243)<br />
+              com.mcdebos.ecash.drawercount.TestDrawerCount.changeDCDDetailsFromCountedToInprogress(TestDrawerCount.java:278)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-3">
+                      &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous8963977834405574931webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous8963977834405574931webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous8963977834405574931webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)<br />
+                      &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous8963977834405574931webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  changeDCDDetailsFromInprogressToCounted
+      </td>
+  <td class="duration">
+    48.426s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@2721fe</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                Open the 1 entry in DCD<br>
+                                Enter Envelope ID as AA<br>
+                                Click on Finalize Button<br>
+                                <br> <a href="file:///D:\BackUp\23Sep\eProfitability_Ecash\eProfitability_Ecash\eProfitability_Ecash\ScreenShots\changeDCDDetailsFromInprogressToCounted1443096305058.png">View Screenshot</a><br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for element to be clickable: By.xpath: (//span[contains(text(),&apos;Counted&apos;)])[1]<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 50a4b023-5825-4a89-8f89-d0b4b8176797</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)<br />
+              com.mcdebos.ecash.pages.DrawerCountDownPage.inprogressToCounted(DrawerCountDownPage.java:680)<br />
+              com.mcdebos.ecash.drawercount.TestDrawerCount.changeDCDDetailsFromInprogressToCounted(TestDrawerCount.java:265)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewGiftCertificates
+      </td>
+  <td class="duration">
+    42.248s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@b01b12</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                <br> <a href="file:///D:\BackUp\23Sep\eProfitability_Ecash\eProfitability_Ecash\eProfitability_Ecash\ScreenShots\viewGiftCertificates1443096955192.png">View Screenshot</a><br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with<br/>
+Command duration or timeout: 30.16 seconds<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: edaea916-1625-427f-a153-942fa1301304</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)<br />
+              com.mcdebos.ecash.pages.HomePage.selectECashOption(HomePage.java:144)<br />
+              com.mcdebos.ecash.drawercount.TestDrawerCount.viewGiftCertificates(TestDrawerCount.java:442)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-6">
+                      &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous9107532569729717561webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous9107532569729717561webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous9107532569729717561webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)<br />
+                      &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous9107532569729717561webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingFieldsOnDCDDetailScreen
+      </td>
+  <td class="duration">
+    74.857s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@16f48b4</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Check Whether Preparer Field is Available on DCD Detail screen<br> 
+                                Check Whether Drawer Bank Field is Available on DCD Detail screen<br> 
+                                Check Whether Current Forever Field is Available on DCD Detail screen<br> 
+                                Check Whether Forever Difference Field is Available on DCD Detail screen<br> 
+                                Check Whether POS Overrings Field is Available on DCD Detail screen<br> 
+                                Check Whether Forever Difference Field is Available on DCD Detail screen<br> 
+                                Check Whether Forever Difference Field is Available on DCD Detail screen<br> 
+                                Check Whether Billable Sales Field is Available on DCD Detail screen<br> 
+                                Check Whether Non Taxable Sales Field is Available on DCD Detail screen<br> 
+                                Check Whether Gift Cert.Redeemed Field is Available on DCD Detail screen<br> 
+                                Check Whether Arch Card Redeemed Field is Available on DCD Detail screen<br> 
+                                Check Whether Skims Field is Available on DCD Detail screen<br> 
+                                <br> <a href="file:///D:\BackUp\23Sep\eProfitability_Ecash\eProfitability_Ecash\eProfitability_Ecash\ScreenShots\viewingFieldsOnDCDDetailScreen1443096572254.png">View Screenshot</a><br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for element to be clickable: By.xpath: //span[contains(text(),&apos;Skims&apos;)]<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 69a5f467-6bb2-4b6c-b902-d5d59f35734f</b></a><br />
+    <div class="stackTrace" id="exception-7">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)<br />
+              com.mcdebos.ecash.pages.DrawerCountDownPage.isSkimsField(DrawerCountDownPage.java:476)<br />
+              com.mcdebos.ecash.drawercount.TestDrawerCount.viewingFieldsOnDCDDetailScreen(TestDrawerCount.java:338)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Skims&apos;)]&quot;}<br/>
+Command duration or timeout: 30.19 seconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 69a5f467-6bb2-4b6c-b902-d5d59f35734f<br/>
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Skims&apos;)]}</a><br />
+        <div class="stackTrace" id="exception-8">
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+                      sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+                      java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+                      org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br />
+                      org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)<br />
+                      org.openqa.selenium.By$ByXPath.findElement(By.java:357)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:728)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$17.apply(ExpectedConditions.java:528)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$17.apply(ExpectedConditions.java:1)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)<br />
+                      com.mcdebos.ecash.pages.DrawerCountDownPage.isSkimsField(DrawerCountDownPage.java:476)<br />
+                      com.mcdebos.ecash.drawercount.TestDrawerCount.viewingFieldsOnDCDDetailScreen(TestDrawerCount.java:338)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+                      org.testng.TestRunner.run(TestRunner.java:617)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+                      org.testng.TestNG.run(TestNG.java:1057)<br />
+                      org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Skims&apos;)]&quot;}<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-9">
+                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous5530216029143384310webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)<br />
+                      &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous5530216029143384310webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingManagerAndCashier
+      </td>
+  <td class="duration">
+    39.300s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1e698c7</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                <br> <a href="file:///D:\BackUp\23Sep\eProfitability_Ecash\eProfitability_Ecash\eProfitability_Ecash\ScreenShots\viewingManagerAndCashier1443097612552.png">View Screenshot</a><br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-10', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up<br/>
+Command duration or timeout: 30.40 seconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: dc8cf58a-276c-4e98-8bbb-6c38eaa46920</b></a><br />
+    <div class="stackTrace" id="exception-10">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)<br />
+              com.mcdebos.ecash.pages.DrawerCountDownPage.moveToDate(DrawerCountDownPage.java:155)<br />
+              com.mcdebos.ecash.pages.DrawerCountDownPage.selectDate(DrawerCountDownPage.java:243)<br />
+              com.mcdebos.ecash.drawercount.TestDrawerCount.viewingManagerAndCashier(TestDrawerCount.java:596)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-11', 'block')" title="Click to expand/collapse">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-11">
+                      &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8953)<br />
+                      &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous696650196840367084webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8546)<br />
+                      &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous696650196840367084webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9585)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous696650196840367084webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous696650196840367084webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)<br />
+                      &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous696650196840367084webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingManualEntryFieldOnDCDDetailPage
+      </td>
+  <td class="duration">
+    70.508s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1eadcba</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Enter Envelope ID as 123<br>
+                                <br> <a href="file:///D:\BackUp\23Sep\eProfitability_Ecash\eProfitability_Ecash\eProfitability_Ecash\ScreenShots\viewingManualEntryFieldOnDCDDetailPage1443096674816.png">View Screenshot</a><br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-12', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for element to be clickable: By.id: co_adj_ref_ovr_amt_input<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 9ddbfaf1-e7b1-482d-91f1-aee32ad5e0b9</b></a><br />
+    <div class="stackTrace" id="exception-12">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)<br />
+              com.mcdebos.ecash.pages.DrawerCountDownPage.manualRefundsAndOverrings(DrawerCountDownPage.java:832)<br />
+              com.mcdebos.ecash.drawercount.TestDrawerCount.viewingManualEntryFieldOnDCDDetailPage(TestDrawerCount.java:386)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-13', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;co_adj_ref_ovr_amt_input&quot;}<br/>
+Command duration or timeout: 30.42 seconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 9ddbfaf1-e7b1-482d-91f1-aee32ad5e0b9<br/>
+*** Element info: {Using=id, value=co_adj_ref_ovr_amt_input}</a><br />
+        <div class="stackTrace" id="exception-13">
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+                      sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+                      java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+                      org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br />
+                      org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)<br />
+                      org.openqa.selenium.By$ById.findElement(By.java:214)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:728)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$17.apply(ExpectedConditions.java:528)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$17.apply(ExpectedConditions.java:1)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)<br />
+                      com.mcdebos.ecash.pages.DrawerCountDownPage.manualRefundsAndOverrings(DrawerCountDownPage.java:832)<br />
+                      com.mcdebos.ecash.drawercount.TestDrawerCount.viewingManualEntryFieldOnDCDDetailPage(TestDrawerCount.java:386)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+                      org.testng.TestRunner.run(TestRunner.java:617)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+                      org.testng.TestNG.run(TestNG.java:1057)<br />
+                      org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-14', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;co_adj_ref_ovr_amt_input&quot;}<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;DS-7071BC8FD8F3&apos;, ip: &apos;10.112.88.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-14">
+                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous574810910604163302webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)<br />
+                      &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JANSIR~1.T/AppData/Local/Temp/anonymous574810910604163302webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.mcdebos.ecash.drawercount.TestDrawerCount</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify that DCD is available in Cash system">identificationOfDCDInCashSystem</span>
+      </td>
+  <td class="duration">
+    8.442s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@2ea68c</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Checking whether DCD Page was displayed<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify the default value for DCD Business Date field on DCD landing page">identificationOfDefaultBusinessDay</span>
+      </td>
+  <td class="duration">
+    8.730s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1713d56</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Checking whether business date text box was displayed<br>
+                                Checking whether date pickr buttton was displayed<br>
+                                Getting the default date<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify that user is able to view Store number on DCD landing page">identificationOfStoreNumberOnDCDPage</span>
+      </td>
+  <td class="duration">
+    4.766s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1d323e9</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Retrieving store number<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify the Pathway to navigate to Drawer count down Landing Page from eProfitability Main Menu">pathwayToDCD</span>
+      </td>
+  <td class="duration">
+    7.619s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1399441</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  selctCashierOption
+      </td>
+  <td class="duration">
+    33.815s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@c86ba5</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  selctManagerOption
+      </td>
+  <td class="duration">
+    34.253s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@4de19b</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  selectDepositCodeFromDepositDropDown
+      </td>
+  <td class="duration">
+    35.902s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1e742e4</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  selectFutureDate
+      </td>
+  <td class="duration">
+    10.115s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@45445a</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                No change in month<br>
+                                Click on the date 24<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify that user is able to select date by using Calendar function">selectingDateCalenderFunction</span>
+      </td>
+  <td class="duration">
+    28.524s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1330ac6</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Retrieving the current month from the date picker<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                Getting the default date<br>
+                                Checking whether Drawer count details was displayed<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify that user is able to go back 60 days within the calendar view and after selecting any date in this range, result appears in 'View Only' format">selectingPastBusinessDate</span>
+      </td>
+  <td class="duration">
+    14.387s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1de5d22</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on Previous month button<br>
+                                Checking whether the date was greyed out<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on Previous month button<br>
+                                Click on the date 25<br>
+                                Getting the default date<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on Previous month button<br>
+                                Click on the date 27<br>
+                                Getting the default date<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify that user confirmation is not required to view Drawer Counts after selecting desired business date">userConfirmationNotRequired</span>
+      </td>
+  <td class="duration">
+    11.301s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@97d59</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                No change in month<br>
+                                Click on the date 24<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewDCDEntries
+      </td>
+  <td class="duration">
+    15.498s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@15dfcc6</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                Checking whether Register fields were displayed<br>
+                                Checking whether Type field was displayed<br>
+                                Checking whether close time was displayed<br>
+                                Checking whether Manager field was displayed<br>
+                                Checking whether cashier field was displayed<br>
+                                Checking whether Deposit code was displayed<br>
+                                Checking whether status was displayed<br>
+                                Checking whether sales field was displayed<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewDepositCodeFieldOnDCDdetailPage
+      </td>
+  <td class="duration">
+    39.033s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@ba57a7</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewManualRefundsOverrings
+      </td>
+  <td class="duration">
+    37.024s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1df8190</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Enter Envelope ID as 123<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingAfterTRed
+      </td>
+  <td class="duration">
+    37.560s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@b93aad</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Check Whether  After-TRED Available on DCD Detail screen<br> 
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingBeforeTRed
+      </td>
+  <td class="duration">
+    38.325s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@6f5124</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Check Whether  Before-TRED Available on DCD Detail screen<br> 
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingDrawerCountedCash
+      </td>
+  <td class="duration">
+    40.687s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@6faf11</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Check Whether Drawer Couted Cash Field is Available on screen<br> 
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingEmployeeMeals
+      </td>
+  <td class="duration">
+    33.818s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1d69f5a</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Check Whether  Employee Meals Available on DCD Detail screen<br> 
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingExpectedDrawerCashIsSystemCalculated
+      </td>
+  <td class="duration">
+    38.472s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1e23ff</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Check Whether Forever Difference Field is Available on DCD Detail screen<br> 
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingForeverDifferenceIsSystemCalculated
+      </td>
+  <td class="duration">
+    36.084s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@d5b107</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Check Whether Forever Difference Field is Available on DCD Detail screen<br> 
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingManagerMeals
+      </td>
+  <td class="duration">
+    25.971s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@98770d</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                Check Whether  Manager Meals Available on DCD Detail screen<br> 
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  viewingOverShortIsSystemCalculated
+      </td>
+  <td class="duration">
+    34.519s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">com.mcdebos.ecash.excelutils.DrawerCountDownData@1d386c3</span><br />
+    
+            <div class="testOutput">
+                        Click on User Drop Down<br>
+                                Select the User as e100001<br>
+                                Click on Store Dropdown<br>
+                                Select the Store as 762<br>
+                                Click on Menu Icon<br>
+                                Click on Cash Management Menu<br>
+                                Verifying whether the cash option 'Drawer Countdown' was present in the dropdown<br>
+                                Select the Cash management option as Drawer Countdown<br>
+                                Click on Date Picker Button<br>
+                                Click on Previous month button<br>
+                                Click on the date 31<br>
+                                OPen the 1 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 2 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 3 entry in DCD<br>
+                                Click on Save Button<br>
+                                OPen the 4 entry in DCD<br>
+                                Click on Save Button<br>
+                                Check Whether  Field Cash Over/Short is Available on DCD Detail screen<br> 
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
